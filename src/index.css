@@ -50,8 +50,10 @@ section{
   background-image: url(imgs/founderbg.png);
   background-size: cover;
 }
-
-
+.footer{
+  background-image: url(imgs/footerbg.png);
+  background-size: cover;
+}
 
 .logo{
   position: absolute;
