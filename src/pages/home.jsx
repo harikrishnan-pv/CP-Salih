@@ -22,35 +22,38 @@ export default function Home() {
                 </div>
             </section>
             <section className="slide stories">
-                <div class="grid h-screen  grid-cols-2 gap-4">
-                    <div className="w-full mx-20 pr-20">
-                        <div className=" mt-5 p-10 bg-green-200">
-                            <img className="mx-auto" src="imgs/stories1.png" alt="" />
-                            <p className="mx-12 text-justify">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque error vero labore iste iusto asperiores,
-                             nostrum culpa vel et repellendus possimus voluptates in unde fugit quibusdam voluptatem 
-                             
+                <div class="grid h-screen grid-cols-1  grid-cols-2 gap-4">
+                    <div className="w-full mx-40 pr-20">
+                        <div className=" mt-5  p-10 bg-green-200">
+                            <img className="mx-auto w-full" src="imgs/stories1.png" alt="" />
+                            <p className=" text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque error vero labore iste iusto asperiores,
+                                nostrum culpa vel et repellendus possimus voluptates in unde fugit quibusdam voluptatem
+                            </p>
+                        </div>
+                        <p className="font-bold text-center mt-8 text-9xl">
+                            Stories
+                        </p>
+                    </div>
+                    <div className="px-40 ">
+                        <div className=" mt-16  p-5 bg-green-300">
+                            <img className="mx-auto w-full" src="imgs/stories2.png" alt="" />
+                            <p className="text-justify">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque error vero labore iste iusto asperiores,
+                                nostrum culpa vel et repellendus possimus voluptates in unde fugit quibusdam voluptatem
                             </p>
                         </div>
                     </div>
-                    <div className="w-full mx-20 pr-20">
-                        <div className=" mt-16 p-5 bg-green-200">
-                            <img className="mx-auto" src="imgs/stories2.png" alt="" />
-                            <p className="mx-12 text-justify">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque error vero labore iste iusto asperiores,
-                             nostrum culpa vel et repellendus possimus voluptates in unde fugit quibusdam voluptatem 
-                             
-                            </p>
-                        </div>
-                    </div>
-
                 </div>
             </section>
-            <section className="slide"></section>
 
-            <section className="slide"></section>
+            <section className="slide">
 
+            </section>
 
+            <section className="slide">
+
+            </section>
         </div>
     )
 }
