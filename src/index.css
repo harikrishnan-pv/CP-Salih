@@ -1,10 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+html{
+  scroll-snap-type: y proximity
+}
+.slider{
+  margin: 0;
+  height:100vh;
+}
+.slide{
+  scroll-snap-align: start;
+
+}
+section{
+  height:100vh;
+  width: 99vw;
+  
+}
 .car1{
-  background: #DAD299; 
-background: -webkit-linear-gradient(to right, #B0DAB9, #DAD299); 
-background: linear-gradient(to right, #B0DAB9, #DAD299);
+  background-image: url(imgs/car1.jpg);
+  background-size: cover;
+
+}
+.car2{
+  background-image: url(imgs/car2.jpg);
+  background-size: cover;
+
+}
+
+.vision{
+  background-image: url(imgs/vision.png);
+  background-size: cover;
+
+}
+
+.stories{
+  background-image: url(imgs/storiesbg.png);
+  
+
+}
+
+.logo{
+  position: absolute;
+  top:30vh;
+  z-index: 100;
+  padding: 2vh;
+  padding-left:5vw;
+  padding-right:5vw;
+  background:rgba(144, 214, 60, .35);
 
 }

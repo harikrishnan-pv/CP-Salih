@@ -4,39 +4,36 @@ import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
+
 export default function Carousel() {
     return (
         <div>
             <Swiper
                 spaceBetween={30}
                 centeredSlides={true}
+                loop={true}
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false
                 }}
-               
-                className="mySwiper"
+
+                className="swiper"
             >
                 <SwiperSlide>
-                    <div className="h-screen w-screen flex justify-between">
-                        <div className="car1 w-screen">
-                            fklgn
-                        </div>
+                    <div className="h-screen car1 w-screen flex justify-between">
+                       
+
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="h-screen car2 flex justify-between">
                        
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
-                    <div className="h-screen flex justify-between">
-                        <div className="">
-                            fklgn
-                        </div>
-                        <div>
-
-                        </div>
-                    </div>
-                </SwiperSlide>
-
             </Swiper>
+            <div className="logo">
+                <img src="imgs/logo.png" alt="logo" />
+            </div>
         </div>
     );
 }
