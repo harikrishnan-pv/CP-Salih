@@ -32,7 +32,7 @@ export default function Home() {
                             </p>
                         </div>
                         <p className="font-bold text-center mt-8 text-9xl">
-                            Stories
+                            STORIES
                         </p>
                     </div>
                     <div className="px-40 ">
@@ -46,9 +46,34 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <section className="slide gallery">
+                <div class="grid px-36   h-screen grid-cols-3 flex flex-wrap content-center grid-cols-2 ">
+                    <div className="col-span-2  ">
+                        <div className="  bg-green-300 p-10 pb-16  z-10 ">
+                            <div className="grid grid-cols-2">
+                                <div>
+                                    <div className="p-10 mb-20">
+                                        <img src="imgs/gallery1.png" alt="" />
+                                    </div>
+                                    <div className="p-2">
+                                        <img src="imgs/gallery3.png" alt="" />
+                                    </div>
+                                </div>
+                                <div className="p-3">
+                                    <img src="imgs/gallery2.png" alt="" />
+                                    <div className="mt-40 ml-60 ">
+                                        <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold px-5 py-3 text-xl rounded">
+                                            View All
+                                        </button>
+                                    </div>
+                                </div>
 
-            <section className="slide">
+                            </div>
+                        </div>
 
+                    </div>
+                   
+                </div>
             </section>
 
             <section className="slide">
