@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 html{
-  scroll-snap-type: y proximity
+  scroll-snap-type: y mandatory
 }
 .slider{
   margin: 0;
