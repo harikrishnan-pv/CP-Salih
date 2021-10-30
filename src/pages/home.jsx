@@ -72,13 +72,16 @@ export default function Home() {
                         </div>
 
                     </div>
-                   
+
                 </div>
             </section>
+            <section className="slide founder">
 
+            </section>
             <section className="slide">
 
             </section>
+
         </div>
     )
 }

@@ -46,6 +46,12 @@ section{
   background-size: cover;
 }
 
+.founder{
+  background-image: url(imgs/founderbg.png);
+  background-size: cover;
+}
+
+
 
 .logo{
   position: absolute;
