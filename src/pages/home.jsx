@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousell from '../components/carousel'
+import Footer from '../components/footer'
 
 export default function Home() {
 
@@ -76,11 +77,35 @@ export default function Home() {
                 </div>
             </section>
             <section className="slide founder">
+                <div class="grid grid-cols-2 flex flex-wrap content-center grid-cols-2 ">
+                    <div>
 
-            </section>
-            <section className="slide">
+                    </div>
+                    <div className="  ">
+                        <div className="mt-44 font-bold text-9xl">
+                            FOUNDER
+                        </div>
+                        <p className="xl mt-4 text-justify mr-16">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere
+                            laborum! Assumenda voluptate maiores possimus consectetur a repudiandae,
+                            reiciendis officia voluptatibus magni quam laboriosam culpa, placeat
+                            dolor voluptas incidunt. Officia eveniet consectetur facilis deserunt
+                            delectus sequi a animi explicabo blanditiis, eum dignissimos id ut
+                            recusandae quod, dolorum laborum nam. Quibusdam numquam necessitatibus
+                            assumenda quas. Commodi libero atque, soluta consequatur impedit earum
+                            laboriosam dolorem veritatis porro sequi facilis eaque officia delenit
+                            i illo vel, natus optio, pariatur minima molestiae totam adipisci!
+                            Labore, omnis. At a officia soluta repellendus natus debitis
+                            explicabo accusamus modi deserunt minima quisquam asperiores cum,
+                            totam quibusdam temporibus rerum!
+                        </p>
+                    </div>
 
+                </div>
             </section>
+           <Footer/>
+
+           
 
         </div>
     )
