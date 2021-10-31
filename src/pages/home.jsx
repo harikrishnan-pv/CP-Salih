@@ -32,7 +32,7 @@ export default function Home() {
                                 nostrum culpa vel et repellendus possimus voluptates in unde fugit quibusdam voluptatem
                             </p>
                         </div>
-                        <p className="font-bold text-gray-600 text-center mt-8 text-9xl">
+                        <p className="font-bold text-gray-600 text-center mt-2 text-9xl">
                             STORIES
                         </p>
                     </div>
@@ -47,7 +47,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="slide gallery">
+            <section className="slide mt-20 gallery">
                 <div class="grid px-36   h-screen grid-cols-3 flex flex-wrap content-center grid-cols-2 ">
                     <div className="col-span-2  ">
                         <div className="  bg-gray-500 p-10 pb-16  z-10 ">
