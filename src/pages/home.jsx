@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 export default function Home() {
 
     return (
-        <div className="slider">
+        <div className="slider bg-gray-100">
 
             <section className="slide">
                 <Carousell />
