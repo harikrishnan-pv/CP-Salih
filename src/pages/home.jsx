@@ -25,19 +25,19 @@ export default function Home() {
             <section className="slide stories">
                 <div class="grid h-screen grid-cols-1  grid-cols-2 gap-4">
                     <div className="w-full mx-40 pr-20">
-                        <div className=" mt-5  p-10 bg-green-200">
+                        <div className=" mt-5  p-10 bg-gray-400">
                             <img className="mx-auto w-full" src="imgs/stories1.png" alt="" />
                             <p className=" text-justify">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque error vero labore iste iusto asperiores,
                                 nostrum culpa vel et repellendus possimus voluptates in unde fugit quibusdam voluptatem
                             </p>
                         </div>
-                        <p className="font-bold text-center mt-8 text-9xl">
+                        <p className="font-bold text-gray-600 text-center mt-8 text-9xl">
                             STORIES
                         </p>
                     </div>
                     <div className="px-40 ">
-                        <div className=" mt-16  p-5 bg-green-300">
+                        <div className=" mt-16  p-5 bg-gray-500">
                             <img className="mx-auto w-full" src="imgs/stories2.png" alt="" />
                             <p className="text-justify">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eaque error vero labore iste iusto asperiores,
@@ -50,7 +50,7 @@ export default function Home() {
             <section className="slide gallery">
                 <div class="grid px-36   h-screen grid-cols-3 flex flex-wrap content-center grid-cols-2 ">
                     <div className="col-span-2  ">
-                        <div className="  bg-green-300 p-10 pb-16  z-10 ">
+                        <div className="  bg-gray-500 p-10 pb-16  z-10 ">
                             <div className="grid grid-cols-2">
                                 <div>
                                     <div className="p-10 mb-20">
@@ -62,8 +62,8 @@ export default function Home() {
                                 </div>
                                 <div className="p-3">
                                     <img src="imgs/gallery2.png" alt="" />
-                                    <div className="mt-40 ml-60 ">
-                                        <button class="bg-gray-500 hover:bg-gray-700 text-white font-bold px-5 py-3 text-xl rounded">
+                                    <div className="mt-40 ml-56 ">
+                                        <button class="bg-gray-600 hover:bg-gray-700 text-white font-bold px-5 py-3 text-xl rounded">
                                             View All
                                         </button>
                                     </div>

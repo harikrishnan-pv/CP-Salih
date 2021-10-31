@@ -39,6 +39,7 @@ section{
 
 .stories{
   background-image: url(imgs/storiesbg.png);
+  background-size: cover;
 }
 
 .gallery{
@@ -62,6 +63,6 @@ section{
   padding: 2vh;
   padding-left:5vw;
   padding-right:5vw;
-  background:rgba(144, 214, 60, .35);
+  background:rgba(107, 114, 128, .4);
 
 }
