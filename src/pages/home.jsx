@@ -22,7 +22,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="slide stories">
+            <section className="slide mt-20 stories">
                 <div class="grid h-screen grid-cols-1  grid-cols-2 gap-4">
                     <div className="w-full mx-40 pr-20">
                         <div className=" mt-5  p-10 bg-gray-400">
@@ -50,7 +50,7 @@ export default function Home() {
             <section className="slide mt-20 gallery">
                 <div class="grid px-36   h-screen grid-cols-3 flex flex-wrap content-center grid-cols-2 ">
                     <div className="col-span-2  ">
-                        <div className="  bg-gray-500 p-10 pb-16  z-10 ">
+                        <div className="  bg-gray-500 shadow-2xl p-10 pb-16  z-10 ">
                             <div className="grid grid-cols-2">
                                 <div>
                                     <div className="p-10 mb-20">
@@ -82,7 +82,7 @@ export default function Home() {
 
                     </div>
                     <div className="  ">
-                        <div className="mt-44 font-bold text-9xl">
+                        <div className="mt-44 font-bold text-gray-700 text-9xl">
                             FOUNDER
                         </div>
                         <p className="xl mt-4 text-justify mr-16">
@@ -100,13 +100,9 @@ export default function Home() {
                             totam quibusdam temporibus rerum!
                         </p>
                     </div>
-
                 </div>
             </section>
             <Footer  />
-
-
-
         </div>
     )
 }

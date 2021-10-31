@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <div>
-            <footer class="footer py-60 font-bold bg-gray-800 text-gray-700  sm:py-12">
-                <div class="container my-16 max-w-7xl mx-auto px-4">
+            <footer class="footer py-60 font-bold text-gray-700  sm:py-12">
+                <div class="container py-40 max-w-7xl mx-auto px-4">
                     <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
                         <div className=" mx-24 text-white text-5xl">
                             A rich man is nothing <br /> but a poor man with money
@@ -88,7 +88,7 @@ export default function Footer() {
 
                         </div>
                     </div>
-                   
+
                     <div className="flex">
                         <Link className="border-b px-10 border-solid border-transparent hover:border-gray-200 hover:text-gray-200" to="/baas">
                             Privacy Policy
