@@ -1,6 +1,5 @@
 import React from 'react'
 import Carousell from '../components/carousel'
-import Footer from '../components/footer'
 import Card from "@material-tailwind/react/Card";
 import CardImage from "@material-tailwind/react/CardImage";
 import CardBody from "@material-tailwind/react/CardBody";
@@ -34,7 +33,7 @@ export default function Home() {
                         </p>
                     </div>
                 </div>
-                
+
             </section>
 
             <section className="slide mt-20 px-4 stories">
@@ -173,9 +172,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <div className="footer">
-            <Footer />
-            </div>
+           
         </div>
     )
 }

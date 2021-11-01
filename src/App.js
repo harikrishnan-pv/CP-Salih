@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Layout from './components/layout';
 import Gallery from './pages/gallery';
 import Home from './pages/home';
+import Profile from './pages/profile';
 
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route exact path="/gallery">
             <Gallery/>
+          </Route>
+          <Route exact path="/profile">
+            <Profile/>
           </Route>
         </Switch>
       </Layout>

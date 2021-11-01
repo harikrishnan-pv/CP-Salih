@@ -54,7 +54,10 @@ section{
   background-image: url(imgs/footerbg.png);
   background-size: cover;
 }
-
+.profile-top{
+  background: url(imgs/car1.jpg);
+  background-size: cover;
+}
 .logo{
   position: absolute;
   top:30vh;
