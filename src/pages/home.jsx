@@ -37,8 +37,6 @@ export default function Home() {
                 
             </section>
 
-
-
             <section className="slide mt-20 px-4 stories">
                 <div className="grid max-w-7xl pt-10 mx-auto lg:grid-cols-3 gap-6">
                     <div className="  ">
