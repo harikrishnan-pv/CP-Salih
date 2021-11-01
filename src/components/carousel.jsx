@@ -17,10 +17,10 @@ export default function Carousel() {
                     disableOnInteraction: false
                 }}
 
-                className="swiper"
+                className="swiper w-full"
             >
                 <SwiperSlide>
-                    <div className="h-screen car1 w-screen flex justify-between">
+                    <div className="h-screen car1 w-full flex justify-between">
                        
 
                     </div>
