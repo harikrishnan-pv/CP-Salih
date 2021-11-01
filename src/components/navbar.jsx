@@ -1,45 +1,58 @@
-import React, { useState } from "react";
-import Navbar from "@material-tailwind/react/Navbar";
-import NavbarContainer from "@material-tailwind/react/NavbarContainer";
-import NavbarWrapper from "@material-tailwind/react/NavbarWrapper";
-import NavbarBrand from "@material-tailwind/react/NavbarBrand";
-import NavbarToggler from "@material-tailwind/react/NavbarToggler";
-import NavbarCollapse from "@material-tailwind/react/NavbarCollapse";
-import Nav from "@material-tailwind/react/Nav";
-import NavLink from "@material-tailwind/react/NavLink";
+import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Navbarr() {
-    const [openNavbar, setOpenNavbar] = useState(false);
-
+   
     return (
-        <Navbar className="slide absolute z-40 w-full" color="blueGray" navbar>
-            <NavbarContainer>
-                <NavbarWrapper>
-                    <NavbarBrand>Navbar</NavbarBrand>
-                    <NavbarToggler
-                        color="white"
-                        onClick={() => setOpenNavbar(!openNavbar)}
-                        ripple="light"
-                    />
-                </NavbarWrapper>
+        <div>
+            <nav className='navbarr absolute w-full bg-gray-500  z-40 shadow-xl' >
+                <div className="bg-white lg:bg-transparent stickerr w-100  text-gray-300">
+                    <div className="max-w-7xl px-5 py-2 mx-auto">
+                        <div className="flex justify-around">
+                            <Link to="/">
+                                <div className="flex items-center">
+                                    <img width="70" src="imgs/logo.png" alt="" />
+                                   
+                                </div>
+                            </Link>
+                            <div className="flex hidden lg:flex items-center space-x-7">
+                                <Link className="hover:text-white" to="/about">
+                                    Profile
+                                </Link>
 
-                <NavbarCollapse open={openNavbar}>
-                    <Nav>
-                    <NavLink href="/" ripple="light">
-                            Home
-                        </NavLink>
-                        <NavLink href="/profile" ripple="light">
-                            Profile
-                        </NavLink>
-                        <NavLink href="/gallery" ripple="light">
-                            Gallery
-                        </NavLink>
-                        <NavLink href="/services" ripple="light">
-                            Services
-                        </NavLink>
-                    </Nav>
-                </NavbarCollapse>
-            </NavbarContainer>
-        </Navbar>
-    );
+                                <Link className="hover:text-white" to="/clientele">
+Gallery
+                                </Link>
+
+                                <Link className="hover:text-white" to="/contact">
+Services
+                                </Link>
+                            </div>
+                            <div className="lg:hidden ham flex items-center">
+                                <button>
+                                    <svg class="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="lg:hidden hidden menu items-center justify-right px-4 space-y-5 py-5">
+                        <Link className="hover:text-black block" to="/about">
+                            Our Services
+                        </Link>
+
+                        <Link className="hover:text-black block" to="/clientele">
+                            Our Clientele
+                        </Link>
+
+                        <Link className="hover:text-black block" to="/contact">
+                            Contact Us
+                        </Link>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    )
 }
+
