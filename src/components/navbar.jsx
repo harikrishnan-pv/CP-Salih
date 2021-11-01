@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 
 export default function Navbarr() {
-   
+
     return (
         <div>
             <nav className='navbarr absolute w-full bg-gray-500  z-40 shadow-xl' >
@@ -13,20 +13,20 @@ export default function Navbarr() {
                             <Link to="/">
                                 <div className="flex items-center">
                                     <img width="70" src="imgs/logo.png" alt="" />
-                                   
+
                                 </div>
                             </Link>
                             <div className="flex hidden lg:flex items-center space-x-7">
-                                <Link className="hover:text-white" to="/about">
+                                <Link className="hover:text-white" to="/profile">
                                     Profile
                                 </Link>
 
-                                <Link className="hover:text-white" to="/clientele">
-Gallery
+                                <Link className="hover:text-white" to="/gallery">
+                                    Gallery
                                 </Link>
 
-                                <Link className="hover:text-white" to="/contact">
-Services
+                                <Link className="hover:text-white" to="/services">
+                                    Services
                                 </Link>
                             </div>
                             <div className="lg:hidden ham flex items-center">
