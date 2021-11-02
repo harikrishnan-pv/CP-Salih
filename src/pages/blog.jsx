@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { client } from '../client'
 import Posts from '../components/posts'
+import { client } from '../client'
 
 
 
