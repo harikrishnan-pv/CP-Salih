@@ -42,13 +42,22 @@ export default function Post({ article }) {
                         </Button>
 
                         <Modal size="lg" active={showModal} toggler={() => setShowModal(false)}>
+                           
                             <ModalHeader toggler={() => setShowModal(false)}>
                                 {title}
                             </ModalHeader>
+                            <br />
+                            <br />
                             <ModalBody>
-                                    <p>
+                            {featuredImage && <CardImage
+                                src={featuredImage.fields.file.url}
+                                alt="Card Image"
+                            />}
+                            <br />
+                            <br />
+                                <p>
                                     {description}
-                                    </p>
+                                </p>
                             </ModalBody>
                             <ModalFooter>
                                 <Button
