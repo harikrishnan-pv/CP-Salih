@@ -25,18 +25,17 @@ export default class Blog extends Component {
     render() {
         return (
             <div>
-
-                <div className="flex items-center pt-10 justify-center">
-                    <p className="text-7xl py-40 font-bold">
-                        Services
-                    </p>
-                </div>
-
-                <div className="">
-                    
+                <div className="container">
+                    <header>
+                        <div className="wrapper">
+                            <span>
+                                Contentful Trial
+                            </span>
+                        </div>
+                    </header>
                     <main>
                         <div className="wrapper">
-                            <Posts posts={this.state.articles} />
+                            <Posts posts={this.state.articles}/>
                         </div>
                     </main>
                 </div>

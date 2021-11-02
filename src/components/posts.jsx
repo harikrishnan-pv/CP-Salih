@@ -1,12 +1,10 @@
 import React from 'react'
 import Post from './post'
 
-const Posts = ({ posts }) => {
+const Posts = ({posts}) => {
     return (
         <div>
-            <div className="grid grid-cols-3 max-w-7xl mx-auto gap-10">
-                {posts.map((article, index) => <Post article={article} key={index} />)}
-            </div>
+            {posts.map((article, index)=> <Post article={article} key={index}/>)}
         </div>
     )
 }

@@ -1,26 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import marked from 'marked'
-import Card from "@material-tailwind/react/Card";
-import CardImage from "@material-tailwind/react/CardImage";
-import CardBody from "@material-tailwind/react/CardBody";
-import CardFooter from "@material-tailwind/react/CardFooter";
-import H6 from "@material-tailwind/react/Heading6";
-import Paragraph from "@material-tailwind/react/Paragraph";
-import Button from "@material-tailwind/react/Button";
-import Modal from "@material-tailwind/react/Modal";
-import ModalHeader from "@material-tailwind/react/ModalHeader";
-import ModalBody from "@material-tailwind/react/ModalBody";
-import ModalFooter from "@material-tailwind/react/ModalFooter";
 
-
-
-export default function Post({ article }) {
-    const [showModal, setShowModal] = useState(false)
+const Post = ({article}) => {
     console.log(article)
-    const { title, featuredImage, description, short } = article.fields
-    const desc = marked(description)
+    const {title, featuredImage, description}= article.fields 
+    const desc=marked(description)
     return (
         <div>
+<<<<<<< HEAD
             <div>
                 <Card>
                     {featuredImage && <CardImage
@@ -67,6 +54,13 @@ export default function Post({ article }) {
                     </CardFooter>
                 </Card>
             </div>
+=======
+            <h2>{title}</h2>
+            {featuredImage && <img src={featuredImage.fields.file.url} alt="dfkjhglk"/>}
+            <p dangerouslySetInnerHTML={{ __html: desc }} />
+>>>>>>> parent of 46871b7 (Services)
         </div>
     )
 }
+
+export default Post
