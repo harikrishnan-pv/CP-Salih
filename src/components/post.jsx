@@ -49,9 +49,7 @@ export default function Post({ article }) {
                                 {title}
                             </ModalHeader>
                             <ModalBody>
-                                <p className="text-base leading-relaxed text-gray-600 font-normal">
                                     <Paragraph dangerouslySetInnerHTML={{ __html: desc }} color="gray" />
-                                </p>
                             </ModalBody>
                             <ModalFooter>
                                 <Button
