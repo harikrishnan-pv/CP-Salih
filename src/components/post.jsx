@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
-import marked from 'marked'
 import Card from "@material-tailwind/react/Card";
 import CardImage from "@material-tailwind/react/CardImage";
 import CardBody from "@material-tailwind/react/CardBody";
 import CardFooter from "@material-tailwind/react/CardFooter";
 import H6 from "@material-tailwind/react/Heading6";
-import Paragraph from "@material-tailwind/react/Paragraph";
 import Button from "@material-tailwind/react/Button";
 import Modal from "@material-tailwind/react/Modal";
 import ModalHeader from "@material-tailwind/react/ModalHeader";
@@ -18,10 +16,9 @@ export default function Post({ article }) {
     const [showModal, setShowModal] = useState(false)
     console.log(article)
     const { title, featuredImage, description, short } = article.fields
-    const desc = marked(description)
     return (
         <div>
-            <div>
+            <div >
                 <Card>
                     {featuredImage && <CardImage
                         src={featuredImage.fields.file.url}
@@ -49,7 +46,9 @@ export default function Post({ article }) {
                                 {title}
                             </ModalHeader>
                             <ModalBody>
-                                    <Paragraph dangerouslySetInnerHTML={{ __html: desc }} color="gray" />
+                                    <p>
+                                    {description}
+                                    </p>
                             </ModalBody>
                             <ModalFooter>
                                 <Button
