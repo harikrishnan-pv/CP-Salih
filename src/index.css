@@ -68,7 +68,6 @@ section{
   padding-right:5vw;
   background:rgba(107, 114, 128, .4);
 
-<<<<<<< HEAD
 }
 
 .App {
@@ -77,6 +76,8 @@ section{
   justify-content:center;
   align-items:center;
 }
-=======
-}
->>>>>>> parent of caa8a66 (zdv)
+
+.aezak:hover{
+  transition: .2s ;
+  transform: scale(1.2);
+  }
