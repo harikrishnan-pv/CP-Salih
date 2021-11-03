@@ -6,9 +6,10 @@ import CardBody from "@material-tailwind/react/CardBody";
 import Paragraph from "@material-tailwind/react/Paragraph";
 import Image from "@material-tailwind/react/Image";
 import Button from "@material-tailwind/react/Button";
-
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
+
 
     return (
         <div className="slider lg:container-2xl  ">
@@ -27,10 +28,26 @@ export default function Home() {
                     </div>
                     <div>
                     </div>
-                    <div className="col-span-2">
-                        <p className=" lg:px-20 px-10 pt-10 lg:pt-20 text-justify">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam possimus vero quo error quidem commodi repudiandae, animi facere repellendus blanditiis distinctio explicabo nulla aperiam eius, accusamus sint quos! Ullam ipsum dignissimos consequatur iure exercitationem sunt quae enim beatae! Officiis natus facere vel laudantium commodi, perferendis, quas tenetur voluptates corporis numquam quo autem assumenda doloremque totam dicta, sapiente recusandae minima nostrum voluptatibus quisquam similique! Sint voluptates itaque ex voluptatum harum consequatur nemo veniam illo tempore aliquam aut nostrum ullam nam, maiores excepturi animi ut adipisci, aliquid repellat? Autem vel eaque molestias nostrum officiis in, illum atque natus nisi voluptates repudiandae necessitatibus?
-                        </p>
+                    <div className="col-span-2 ">
+                        <div className="App text-2xl">
+                            <Typewriter
+
+                                onInit={(typewriter) => {
+
+                                    typewriter
+                                        .typeString("<br/>")
+                                        .typeString("A little help with a little smile gives meaning to human life.")
+                                        .pauseFor(500)
+                                        .typeString("<br/>")
+                                        .typeString("We make a living by what we get, <br/> but we live a life by what we give")
+                                        .pauseFor(500)
+                                        .typeString("<br/>")
+                                        .typeString("Join us and see the need, not the cause")
+
+                                        .start();
+                                }}
+                            />
+                        </div>
                     </div>
                 </div>
 
@@ -187,8 +204,8 @@ export default function Home() {
                                 />
                             </div>
                             <div className="px-1 pt-14 text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                                Nulla non convallis nunc. Donec in semper diam, varius.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Nulla non convallis nunc. Donec in semper diam, varius
                             </div>
 
                         </div>
