@@ -14,19 +14,17 @@ function App() {
           <Route exact path="/">
             <Home/>
           </Route>
-          <Route exact path="/gallery">
+          <Route path="/gallery">
             <Gallery/>
           </Route>
-          <Route exact path="/profile">
+          <Route path="/profile">
             <Profile/>
           </Route>
-          <Route exact path="/services">
+          <Route path="/services">
             <Blog/>
           </Route>
-
         </Switch>
       </Layout>
-
     </Router>
   );
 }

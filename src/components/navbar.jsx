@@ -1,31 +1,44 @@
-import React from 'react'
+
+
+
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 
 export default function Navbarr() {
+    window.onload = function () {
+        const btn = document.querySelector(".ham");
+        const menu = document.querySelector(".menu");
 
+        btn.addEventListener('click', () => {
+            menu.classList.toggle("hidden")
+        })
+    }
+    const [navbar, setNavbar] = useState(false)
+
+   
     return (
         <div>
-            <nav className='navbarr absolute w-full bg-gray-500  z-40 shadow-xl' >
-                <div className="bg-white lg:bg-transparent stickerr w-100  text-gray-300">
-                    <div className="max-w-7xl px-5 py-2 mx-auto">
+            <nav className='absolute navbarr bg-gray-200 w-full z-40 shadow-xl'>
+                <div className="bg-white lg:bg-transparent stickerr w-100 text-xl text-gray-600">
+                    <div className="max-w-7xl px-5 py-1 mx-auto">
                         <div className="flex justify-around">
                             <Link to="/">
                                 <div className="flex items-center">
-                                    <img width="70" src="imgs/logo.png" alt="" />
+                                    <img width="80" src="imgs/logo.png" alt="" />
 
                                 </div>
                             </Link>
                             <div className="flex hidden lg:flex items-center space-x-7">
-                                <Link className="hover:text-white" to="/profile">
+                                <Link className="hover:text-gray-600" to="/profile">
                                     Profile
                                 </Link>
 
-                                <Link className="hover:text-white" to="/gallery">
+                                <Link className="hover:text-gray-600" to="/gallery">
                                     Gallery
                                 </Link>
 
-                                <Link className="hover:text-white" to="/services">
+                                <Link className="hover:text-gray-600" to="/services">
                                     Services
                                 </Link>
                             </div>
@@ -37,18 +50,20 @@ export default function Navbarr() {
                             </div>
                         </div>
                     </div>
-                    <div className="lg:hidden hidden menu items-center justify-right px-4 space-y-5 py-5">
-                        <Link className="hover:text-black block" to="/about">
-                            Our Services
+                    <div className="lg:hidden hidden menu flex items-center justify-right px-4 space-y-5 py-5">
+                       <div>
+                       <Link className="hover:text-gray-600" to="/profile">
+                            Profile
                         </Link>
-
-                        <Link className="hover:text-black block" to="/clientele">
-                            Our Clientele
+                        <br />
+                        <Link className="hover:text-gray-600" to="/gallery">
+                            Gallery
                         </Link>
-
-                        <Link className="hover:text-black block" to="/contact">
-                            Contact Us
+                        <br />
+                        <Link className="hover:text-gray-600" to="/services">
+                            Services
                         </Link>
+                       </div>
                     </div>
                 </div>
             </nav>

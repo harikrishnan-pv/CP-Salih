@@ -99,7 +99,32 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className="slide  px-28 flex justify-center  gallery">
+            <div className=" pt-16 slide lg:hidden px-4 flex justify-center">
+                <Card className="bg-gray-500">
+                    <CardImage
+                        src='imgs/gallery1.png'
+                        alt="Card Image"
+                    />
+                    <CardBody>
+                        <p className="text-center text-white font-bold text-3xl">
+                            Gallery
+                        </p>
+                        <p></p>
+
+                    </CardBody>
+                    <Button
+                        color="blueGray"
+                        type="button"
+                        ripple="light"
+                    >
+                        Show more
+                    </Button>
+
+
+                </Card>
+            </div>
+
+            <section className="slide hidden lg:flex px-28 flex justify-center  gallery">
                 <div className="grid  py-10 lg:grid-cols-3 gap-6">
                     <div className="flex w-full lg:grid-cols-2 px-10 p-3 gap-6 rounded-lg shadow-2xl grid bg-gray-600 col-span-2 items-center">
                         <div className="p-10">
@@ -147,7 +172,30 @@ export default function Home() {
                 </div>
 
             </section>
-            <section className="slide founder">
+            <div className="pt-16 slide lg:hidden px-4">
+                <Card className="bg-gray-600">
+                    <CardBody>
+                        <div className="grid text-white grid-cols-2">
+                            <div className="text-4xl font-bold text-center">
+                                FOUNDER
+                                <Image
+                                    src="imgs/foundermb.png"
+                                    rounded={false}
+                                    raised={true}
+                                    alt="Raised Image"
+                                    className="pt-5"
+                                />
+                            </div>
+                            <div className="px-1 pt-14 text-justify">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Nulla non convallis nunc. Donec in semper diam, varius.
+                            </div>
+
+                        </div>
+                    </CardBody>
+                </Card>
+            </div>
+            <section className="slide hidden lg:flex founder">
                 <div className="grid max-w-7xl mx-auto lg:grid-cols-3 h-screen flex justify-center items-center ">
                     <div>
                     </div>
@@ -172,7 +220,7 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-           
+
         </div>
     )
 }

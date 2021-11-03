@@ -57,10 +57,11 @@ section{
 .profile-top{
   background: url(imgs/car1.jpg);
   background-size: cover;
+  min-height: 20rem;
 }
 .logo{
   position: absolute;
-  top:30vh;
+  top:38vh;
   z-index: 10;
   padding: 2vh;
   padding-left:5vw;
