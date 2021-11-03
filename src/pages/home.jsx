@@ -29,7 +29,7 @@ export default function Home() {
                     <div>
                     </div>
                     <div className="col-span-2 ">
-                        <div className="App text-2xl">
+                        <div className="App px-6 text-justify text-2xl">
                             <Typewriter
 
                                 onInit={(typewriter) => {

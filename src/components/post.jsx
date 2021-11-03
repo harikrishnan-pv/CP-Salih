@@ -26,14 +26,14 @@ export default function Post({ article }) {
                     />}
 
                     <CardBody>
-                        <H6 color="gray">{title}</H6>
+                        <p className="text-xl font-bold">{title}</p>
                         <p>{short}</p>
 
                     </CardBody>
 
                     <CardFooter>
                         <Button
-                            color="lightBlue"
+                            color="blueGray"
                             type="button"
                             onClick={(e) => setShowModal(true)}
                             ripple="light"
@@ -42,20 +42,20 @@ export default function Post({ article }) {
                         </Button>
 
                         <Modal size="lg" active={showModal} toggler={() => setShowModal(false)}>
-                           
-                            <ModalHeader toggler={() => setShowModal(false)}>
+
+                            <ModalHeader className="text-center" toggler={() => setShowModal(false)}>
                                 {title}
                             </ModalHeader>
                             <br />
                             <br />
                             <ModalBody>
-                            {featuredImage && <CardImage
-                                src={featuredImage.fields.file.url}
-                                alt="Card Image"
-                            />}
-                            <br />
-                            <br />
-                                <p>
+                                {featuredImage && <CardImage className="max-w-lg mx-auto"
+                                    src={featuredImage.fields.file.url}
+                                    alt="Card Image"
+                                />}
+                                <br />
+                                <br />
+                                <p className="max-w-2xl text-justify px-5">
                                     {description}
                                 </p>
                             </ModalBody>
