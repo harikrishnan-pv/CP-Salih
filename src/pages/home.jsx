@@ -35,6 +35,7 @@ export default function Home() {
                                 onInit={(typewriter) => {
 
                                     typewriter
+                                    .changeDelay(70)
                                         .typeString("<br/>")
                                         .typeString("A little help with a little smile gives meaning to human life.")
                                         .pauseFor(500)
