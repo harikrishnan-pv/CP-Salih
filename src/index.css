@@ -81,3 +81,7 @@ section{
   transition: .2s ;
   transform: scale(1.2);
   }
+.galhov:hover{
+  transition: .2s ;
+  transform: scale(1.05);
+  }

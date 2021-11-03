@@ -145,7 +145,7 @@ export default function Home() {
             <section className="slide hidden lg:flex px-28 flex justify-center  gallery">
                 <div className="grid  py-10 lg:grid-cols-3 gap-6">
                     <div className="flex w-full lg:grid-cols-2 px-10 p-3 gap-6 rounded-lg shadow-2xl grid bg-gray-600 col-span-2 items-center">
-                        <div className="p-10">
+                        <div className="p-10" className="galhov">
                             <Image
                                 src="imgs/gallery1.png"
                                 rounded={false}
@@ -153,7 +153,7 @@ export default function Home() {
                                 alt="Image"
                             />
                         </div>
-                        <div>
+                        <div className="galhov">
                             <Image
                                 src="imgs/gallery2.png"
                                 rounded={false}
@@ -161,7 +161,7 @@ export default function Home() {
                                 alt="Image"
                             />
                         </div>
-                        <div>
+                        <div className="galhov">
                             <Image
                                 src="imgs/gallery3.png"
                                 rounded={false}
