@@ -1,0 +1,22 @@
+    return (
+        <div>
+            <div className="flex py-40 pt-56 items-center justify-center">
+                <div className="font-bold text-8xl">
+                    Gallery
+                </div>
+            </div>
+            <div className="max-w-7xl mx-auto">
+                <Gallery margin={5} photos={photos} />
+            </div>
+        </div>
+    )
+
+
+                  <Carousel
+                currentIndex={currentImage}
+                views={photos.map(x => ({
+                  ...x,
+                  srcset: x.srcSet,
+                  caption: x.title
+                }))}
+              />
