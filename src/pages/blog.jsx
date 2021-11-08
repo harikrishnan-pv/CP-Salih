@@ -28,7 +28,7 @@ export default class Blog extends Component {
 
                 <div className="flex items-center pt-10 justify-center">
                     <p className="text-7xl py-40 font-bold">
-                        Services
+                        Activities
                     </p>
                 </div>
 

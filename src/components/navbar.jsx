@@ -39,7 +39,7 @@ export default function Navbarr() {
                                 </Link>
 
                                 <Link className="hover:text-gray-600" to="/services">
-                                    Services
+                                    Activities
                                 </Link>
                             </div>
                             <div className="lg:hidden ham flex items-center">

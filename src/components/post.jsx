@@ -3,7 +3,6 @@ import Card from "@material-tailwind/react/Card";
 import CardImage from "@material-tailwind/react/CardImage";
 import CardBody from "@material-tailwind/react/CardBody";
 import CardFooter from "@material-tailwind/react/CardFooter";
-import H6 from "@material-tailwind/react/Heading6";
 import Button from "@material-tailwind/react/Button";
 import Modal from "@material-tailwind/react/Modal";
 import ModalHeader from "@material-tailwind/react/ModalHeader";

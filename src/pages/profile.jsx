@@ -83,7 +83,7 @@ export default function Profile() {
                     </CardBody>
                 </Card>
             </div>
-            <div className="max-w-7xl pt-28 px-5 mx-auto">
+            <div className="max-w-7xl py-28 px-5 mx-auto">
                 <Card>
                     <CardBody>
                         <div className="grid lg:grid-cols-4 gap-10">
