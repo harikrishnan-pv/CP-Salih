@@ -152,7 +152,7 @@ export default function Home() {
                     <div className="flex w-full lg:grid-cols-2 px-10 p-3 gap-6 rounded-lg shadow-2xl grid bg-gray-600 col-span-2 items-center">
                         <div  className="p-10 lg:hover:scale-110 z-50 transition transform" >
                             <Image
-                                src="imgs/24.jpeg"
+                                src="imgs/b4.jpeg"
                                 rounded={false}
                                 raised={false}
                                 alt="Image"
@@ -160,7 +160,7 @@ export default function Home() {
                         </div>
                         <div className="lg:hover:scale-110 z-50 transition transform" >
                             <Image
-                                src="imgs/14.jpeg"
+                                src="imgs/a2.jpeg"
                                 rounded={false}
                                 raised={false}
                                 alt="Image"
@@ -168,7 +168,7 @@ export default function Home() {
                         </div>
                         <div className="lg:hover:scale-110 z-50 pb-2 transition transform" >
                             <Image
-                                src="imgs/11.jpeg"
+                                src="imgs/a1.jpeg"
                                 rounded={false}
                                 raised={false}
                                 alt="Image"
@@ -221,10 +221,10 @@ export default function Home() {
                 </Card>
             </div>
             <section className="slide hidden mb-10 lg:flex founder">
-                <div className="grid max-w-7xl mx-auto pt-10 lg:grid-cols-3 h-screen flex justify-center items-center ">
-                    <div>
+                <div className="grid max-w-7xl mx-auto pt-10 lg:grid-cols-5 h-screen flex justify-center items-center ">
+                    <div className="col-span-2">
                     </div>
-                    <div className="col-span-2 items-center flex">
+                    <div className="col-span-3 items-center flex">
                         <div>
                         <div className=" font-bold text-center lg:text-justify text-gray-700 text-6xl lg:text-9xl">
                             FOUNDER
