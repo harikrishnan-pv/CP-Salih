@@ -17,7 +17,7 @@ export default function Post({ article }) {
     const { title, featuredImage, description, short } = article.fields
     return (
         <div>
-            <div >
+            <div>
                 <Card>
                     {featuredImage && <CardImage
                         src={featuredImage.fields.file.url}

@@ -38,7 +38,7 @@ export default function Navbarr() {
                                     Gallery
                                 </Link>
 
-                                <Link className="hover:text-gray-600" to="/services">
+                                <Link className="hover:text-gray-600" to="/activities">
                                     Activities
                                 </Link>
                             </div>
@@ -60,7 +60,7 @@ export default function Navbarr() {
                             Gallery
                         </Link>
                         <br />
-                        <Link className="hover:text-gray-600" to="/services">
+                        <Link className="hover:text-gray-600" to="/activities">
                             Services
                         </Link>
                        </div>

@@ -7,53 +7,53 @@ import Image from '@material-tailwind/react/Image';
 
 export default function Profile() {
     return (
-        <div>
+        <div className="bg-white">
             <div className="pt-28  min-h-screen px-5 flex items-center lg:px-40 justify-center ">
                 <div className="grid  grid-cols-1  lg:grid-cols-3">
                     <div className="lg:col-span-2 p-10  profile-top">
 
                     </div>
-                    <div className="bg-gray-500 text-white p-10">
-                        <div className="text-3xl mt -8 font-bold">
-                            Lorem ipsum dolor
-                            sit amet, consectetur
-                            adipiscing elit.
-                        </div>
-                        <div className="text-3xl mt-8">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non convallis nunc. Donec in semper diam, varius tristique lacus. Sed viverra, metus in volutpat finibus,
+                    <div className="bg-gray-600 lg:col-span- text-white p-10">
+
+                        <div className="text-2xl text-justify ">
+                            <b>
+                                Mohamed Salih C.P, our chairman, is a pioneer extraordinaire, altruist with the mind of a futurist.
+
+                            </b>
+                            <br />
+                            <br />
+                          <div className="text-justify">
+                          He is the Chairman and Managing Director of AASA group of
+                            companies and the chairman of CP Mohamed Memorial Charitable Trust, which was founded purely for his charitable activities funded by his personal
+                            income from his overseas business
+                          </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="max-w-7xl pt-40 px-5 mx-auto">
+            <div className="max-w-7xl mt-20 px-5 mx-auto">
                 <Card>
                     <CardBody>
-                        <div className="grid lg:grid-cols-4 gap-10">
-                            <div className="text-2xl lg:col-span-2 my-auto">
-                                <div className="font-bold">
-                                    Lorem ipsum dolor
-                                    sit amet, consectetur
-                                    adipiscing elit.
+                        <div className="grid lg:grid-cols-3 items-center gap-5">
+                            <div className="text-xl  my-auto">
 
-                                </div>
                                 <div className="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non convallis nunc. Donec in semper diam, varius tristique lacus. Sed viverra, metus in volutpat finibus,
+                                    <b>
+                                        C.P Salih is widely known for his philanthropic activities in the Middle East and back in his home town.
+
+                                    </b>
+                                    <br />
+                                    <br />
+                                    His companies provide jobs for 5000+ Indians. He is
+                                    constantly helping those who are in trouble financially, medically and legally in UAE. He provided food, accommodation, medical facilities and internet
+                                    facilities to 400+ Indians who were stranded in UAE on their way to Saudi Arabia due to COVID – 19 restrictions. He is sponsoring education of school
+                                    children, especially abled children (local and expatriates) in UAE and Kerala.
                                 </div>
                             </div>
+                            <img src=" imgs/prfl2.png" alt="" />
 
-                            <Image
-                                src="imgs/gallery1.png"
-                                rounded={false}
-                                raised={false}
-                                alt="Image"
-                            />
-                            <Image
-                                src="imgs/gallery1.png"
-                                rounded={false}
-                                raised={false}
-                                alt="Image"
-                            />
+                            <img src=" imgs/gallery2.png" alt="" />
                         </div>
                     </CardBody>
                 </Card>
@@ -61,22 +61,13 @@ export default function Profile() {
             <div className="max-w-7xl pt-28 px-5 mx-auto">
                 <Card>
                     <CardBody>
-                        <div className="grid lg:grid-cols-3 gap-10">
-                            <Image
-                                src="imgs/gallery1.png"
-                                rounded={false}
-                                raised={false}
-                                alt="Image"
-                            />
-                            <div className="text-2xl lg:col-span-2 my-auto">
-                                <div className="font-bold">
-                                    Lorem ipsum dolor
-                                    sit amet, consectetur
-                                    adipiscing elit.
-
-                                </div>
+                        <div className="grid lg:grid-cols-2 gap-10">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ps76s-0pRXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+                            <div className="text-xl lg:col-span-1 my-auto">
                                 <div className="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non convallis nunc. Donec in semper diam, varius tristique lacus. Sed viverra, metus in volutpat finibus,
+                                    He is a role model for young entrepreneurs in UAE and India and a motivator for new generation job seekers. He is always a supporter and helping hand to
+                                    those who are in dire need of assistance. His good relations and contacts with UAE ruling family members, department heads, Indian Missions, Indian
+                                    associations, etc. help a lot for his philanthropic activities.
                                 </div>
                             </div>
                         </div>
@@ -89,13 +80,13 @@ export default function Profile() {
                         <div className="grid lg:grid-cols-4 gap-10">
                             <div className="text-2xl my-auto lg:col-span-3">
                                 <div className="font-bold">
-                                    Lorem ipsum dolor
-                                    sit amet, consectetur
-                                    adipiscing elit.
+                                    Early Life
 
                                 </div>
-                                <div className="text-justify">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non convallis nunc. Donec in semper diam, varius tristique lacus. Sed viverra, metus in volutpat finibus,
+                                <div className=" text-xl pt-2 text-justify">
+                                    C P Salih was born in Valapad village in Thrissur district. The home he grew up, along with his 10 siblings, was a huge one. He was born into a prominent
+                                    aristocratic family which was well known in Thrissur district. From a very young age, he was influenced by his father, C.P Mohamed the then headman of
+                                    Chandana Parambil family, who was an agriculturist and well known philanthropist of those time.
                                 </div>
                             </div>
                             <Image

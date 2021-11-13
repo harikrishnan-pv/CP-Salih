@@ -35,7 +35,7 @@ export default class Blog extends Component {
                 <div className="">
                     
                     <main>
-                        <div className="wrapper">
+                        <div className="wrapper pb-10">
                             <Posts posts={this.state.articles} />
                         </div>
                     </main>

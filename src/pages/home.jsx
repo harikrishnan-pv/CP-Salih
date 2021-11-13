@@ -7,6 +7,7 @@ import Paragraph from "@material-tailwind/react/Paragraph";
 import Image from "@material-tailwind/react/Image";
 import Button from "@material-tailwind/react/Button";
 import Typewriter from "typewriter-effect";
+import { Link } from 'react-router-dom';
 
 export default function Home() {
 
@@ -35,7 +36,7 @@ export default function Home() {
                                 onInit={(typewriter) => {
 
                                     typewriter
-                                    .changeDelay(70)
+                                        .changeDelay(70)
                                         .typeString("<br/>")
                                         .typeString("A little help with a little smile gives meaning to human life.")
                                         .pauseFor(500)
@@ -56,7 +57,7 @@ export default function Home() {
 
             <section className="slide mt-20 px-4 stories">
                 <div className="grid max-w-7xl pt-10 mx-auto lg:grid-cols-3 gap-6">
-                    <div className="  ">
+                    <div className=" lg:hover:scale-110 z-50 transition transform ">
                         <Card className="bg-gray-400">
                             <CardImage
                                 src="imgs/stories1.png"
@@ -74,27 +75,29 @@ export default function Home() {
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="flex items-center justify-evenly">
+                    <div className="flex items-center  justify-evenly">
 
                         <div>
                             <p className="text-7xl text-gray-600 font-bold">
                                 STORIES
                             </p>
-                            <Button
-                                className="mx-auto mt-10"
-                                color="blueGray"
-                                buttonType="filled"
-                                size="lg"
-                                rounded={false}
-                                block={false}
-                                iconOnly={false}
-                                ripple="light"
-                            >
-                                Show more
-                            </Button>
+                            <Link to="/activities">
+                                <Button
+                                    className="mx-auto mt-10"
+                                    color="blueGray"
+                                    buttonType="filled"
+                                    size="lg"
+                                    rounded={false}
+                                    block={false}
+                                    iconOnly={false}
+                                    ripple="light"
+                                >
+                                    Show more
+                                </Button>
+                            </Link>
                         </div>
                     </div>
-                    <div className="flex items-center">
+                    <div className="flex lg:hover:scale-110 z-50 transition transform items-center">
                         <Card className="bg-gray-500" >
                             <CardImage
                                 src="imgs/stories2.png"
@@ -130,13 +133,15 @@ export default function Home() {
                         <p></p>
 
                     </CardBody>
-                    <Button
-                        color="blueGray"
-                        type="button"
-                        ripple="light"
-                    >
-                        Show more
-                    </Button>
+                    <Link to="/gallery">
+                        <Button
+                            color="blueGray"
+                            type="button"
+                            ripple="light"
+                        >
+                            Show more
+                        </Button>
+                    </Link>
 
 
                 </Card>
@@ -145,42 +150,44 @@ export default function Home() {
             <section className="slide hidden lg:flex px-28 flex justify-center  gallery">
                 <div className="grid  py-10 lg:grid-cols-3 gap-6">
                     <div className="flex w-full lg:grid-cols-2 px-10 p-3 gap-6 rounded-lg shadow-2xl grid bg-gray-600 col-span-2 items-center">
-                        <div className="p-10" className="galhov">
+                        <div  className="p-10 lg:hover:scale-110 z-50 transition transform" >
                             <Image
-                                src="imgs/gallery1.png"
+                                src="imgs/24.jpeg"
                                 rounded={false}
                                 raised={false}
                                 alt="Image"
                             />
                         </div>
-                        <div className="galhov">
+                        <div className="lg:hover:scale-110 z-50 transition transform" >
                             <Image
-                                src="imgs/gallery2.png"
+                                src="imgs/14.jpeg"
                                 rounded={false}
                                 raised={false}
                                 alt="Image"
                             />
                         </div>
-                        <div className="galhov">
+                        <div className="lg:hover:scale-110 z-50 pb-2 transition transform" >
                             <Image
-                                src="imgs/gallery3.png"
+                                src="imgs/11.jpeg"
                                 rounded={false}
                                 raised={false}
                                 alt="Image"
                             />
                         </div>
                         <div className="flex items-center justify-center">
-                            <Button
-                                color="blueGray"
-                                buttonType="filled"
-                                size="regular"
-                                rounded={false}
-                                block={false}
-                                iconOnly={false}
-                                ripple="light"
-                            >
-                                Button
-                            </Button>
+                            <Link to="/gallery">
+                                <Button
+                                    color="blueGray"
+                                    buttonType="filled"
+                                    size="regular"
+                                    rounded={false}
+                                    block={false}
+                                    iconOnly={false}
+                                    ripple="light"
+                                >
+                                    Show more
+                                </Button>
+                            </Link>
                         </div>
 
                     </div>
@@ -190,7 +197,7 @@ export default function Home() {
                 </div>
 
             </section>
-            <div className="pt-16 slide lg:hidden px-4">
+            <div className="py-16 slide lg:hidden px-4">
                 <Card className="bg-gray-600">
                     <CardBody>
                         <div className="grid text-white grid-cols-2">
@@ -213,28 +220,30 @@ export default function Home() {
                     </CardBody>
                 </Card>
             </div>
-            <section className="slide hidden lg:flex founder">
-                <div className="grid max-w-7xl mx-auto lg:grid-cols-3 h-screen flex justify-center items-center ">
+            <section className="slide hidden mb-10 lg:flex founder">
+                <div className="grid max-w-7xl mx-auto pt-10 lg:grid-cols-3 h-screen flex justify-center items-center ">
                     <div>
                     </div>
-                    <div className="col-span-2 ">
+                    <div className="col-span-2 items-center flex">
+                        <div>
                         <div className=" font-bold text-center lg:text-justify text-gray-700 text-6xl lg:text-9xl">
                             FOUNDER
                         </div>
                         <p className="xl lg:mt-4 mt-10 px-10 lg:px-0 text-justify ">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, facere
-                            laborum! Assumenda voluptate maiores possimus consectetur a repudiandae,
-                            reiciendis officia voluptatibus magni quam laboriosam culpa, placeat
-                            dolor voluptas incidunt. Officia eveniet consectetur facilis deserunt
-                            delectus sequi a animi explicabo blanditiis, eum dignissimos id ut
-                            recusandae quod, dolorum laborum nam. Quibusdam numquam necessitatibus
-                            assumenda quas. Commodi libero atque, soluta consequatur impedit earum
-                            laboriosam dolorem veritatis porro sequi facilis eaque officia delenit
-                            i illo vel, natus optio, pariatur minima molestiae totam adipisci!
-                            Labore, omnis. At a officia soluta repellendus natus debitis
-                            explicabo accusamus modi deserunt minima quisquam asperiores cum,
-                            totam quibusdam temporibus rerum!
+                            Mohamed Salih C.P, our chairman, is a pioneer extraordinaire, altruist with the mind of a futurist.
+
+                            He is the Chairman and Managing Director of AASA group of companies and the chairman of CP Mohamed Memorial Charitable Trust, which was founded purely for his charitable activities funded by his personal income from his overseas business
                         </p>
+                        <Link className="p-5" to="/profile">
+                            <Button
+                                color="blueGray"
+                                type="button"
+                                ripple="light"
+                            >
+                                Read More
+                            </Button>
+                        </Link>
+                        </div>
                     </div>
                 </div>
             </section>
