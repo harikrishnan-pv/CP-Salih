@@ -1,7 +1,7 @@
 export const photos = [
     {
       src: "imgs/a1.jpeg",
-      width: 3,
+      width: 3.3,
       height: 1,
       class : "hover:scale-110 z-50 transition transform"
     },
@@ -13,8 +13,8 @@ export const photos = [
     },  
     {
       src: "imgs/a7.jpeg",
-      width: 2,
-      height: 1,
+      width: 3,
+      height: 2,
       class : "hover:scale-110 z-50 transition transform"
     },  
     {
