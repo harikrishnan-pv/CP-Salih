@@ -60,7 +60,7 @@ export default function Home() {
                     <div className=" lg:hover:scale-110 z-50 transition transform ">
                         <Card className="bg-gray-400">
                             <CardImage
-                                src="imgs/stories1.png"
+                                src="imgs/stories2.jpeg"
                                 alt="Card Image"
                             />
                             <CardBody>
@@ -100,12 +100,12 @@ export default function Home() {
                     <div className="flex lg:hover:scale-110 z-50 transition transform items-center">
                         <Card className="bg-gray-500" >
                             <CardImage
-                                src='imgs/gallery1.png'
+                                src='imgs/stories1.png'
                                 alt="Card Image"
                             />
                             <CardBody>
                                 <p className="text-center pb-2 text-2xl">
-                                Cocid First Line Treatment Center(CFLTC)
+                                Covid First Line Treatment Center(CFLTC)
                                     
                                 </p>
                                 <Paragraph color="">
