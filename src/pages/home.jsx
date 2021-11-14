@@ -65,7 +65,9 @@ export default function Home() {
                             />
                             <CardBody>
                                 <p className="text-center pb-2 text-2xl">
-                                    Dream Home Project
+                                    
+                                Dream Home Project
+                                 
                                 </p>
                                 <Paragraph color="gray">
                                     Built 112 homes for homeless people which includes 18 flat complex
@@ -98,12 +100,13 @@ export default function Home() {
                     <div className="flex lg:hover:scale-110 z-50 transition transform items-center">
                         <Card className="bg-gray-500" >
                             <CardImage
-                                src="imgs/stories2.jpeg"
+                                src='imgs/gallery1.png'
                                 alt="Card Image"
                             />
                             <CardBody>
                                 <p className="text-center pb-2 text-2xl">
-                                    Covid First Line Treatment Center(CFLTC)
+                                Cocid First Line Treatment Center(CFLTC)
+                                    
                                 </p>
                                 <Paragraph color="">
                                     CP Trust has constructed and and transferred the CFLTC to the government with 400 beds and all facilities for the treatment and accommodation for the covid patients. 
@@ -119,7 +122,7 @@ export default function Home() {
             <div className=" pt-16 slide lg:hidden px-4 flex justify-center">
                 <Card className="bg-gray-500">
                     <CardImage
-                        src='imgs/gallery1.png'
+                        src="imgs/stories2.jpeg"
                         alt="Card Image"
                     />
                     <CardBody>
