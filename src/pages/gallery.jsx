@@ -14,18 +14,18 @@ export default function Gallery1() {
                 </div>
             </div>
             <div className="max-w-7xl pb-20 mx-auto">
-            <div className="font-bold pl-4 pt-2 text-4xl">
-CFLTC Inaguration                </div>
-<br />
+                <div className="font-bold pl-4 pt-2 text-4xl">
+                    CFLTC Inaguration                </div>
+                <br />
                 <Gallery margin={15} photos={photos} />
                 <div className="font-bold pl-4 pt-2 text-4xl">
-Mammootty Visiting CFLTC              </div>
-<br />
+                    Mammootty Visiting CFLTC              </div>
+                <br />
                 <Gallery margin={15} photos={photos3} />
                 <div className="font-bold pl-4 pt-2 text-4xl">
-Food Storage             </div>
-<br />
-<Gallery margin={15} photos={photos4} />
+                    Food Storage             </div>
+                <br />
+                <Gallery margin={15} photos={photos4} />
                 <div className="font-bold pl-4 pt-2 text-4xl">
                     Food Distribution
                 </div>
@@ -33,12 +33,12 @@ Food Storage             </div>
 
                 <Gallery margin={15} photos={photos2} />
                 <div className="font-bold pl-4 pt-2 text-4xl">
-                    Free Vaccination
+                    Free Vaccination Camp
                 </div>
                 <br />
                 <Gallery margin={15} photos={photos5} />
             </div>
-            
+
         </div>
     )
 }

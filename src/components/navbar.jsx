@@ -16,7 +16,7 @@ export default function Navbarr() {
     }
     const [navbar, setNavbar] = useState(false)
 
-   
+
     return (
         <div>
             <nav className='absolute navbarr bg-gray-200 w-full z-40 shadow-xl'>
@@ -30,6 +30,10 @@ export default function Navbarr() {
                                 </div>
                             </Link>
                             <div className="flex hidden lg:flex items-center space-x-7">
+                                <Link className="hover:text-gray-600" to="/">
+                                    Home
+                                </Link>
+
                                 <Link className="hover:text-gray-600" to="/profile">
                                     Profile
                                 </Link>
@@ -51,19 +55,19 @@ export default function Navbarr() {
                         </div>
                     </div>
                     <div className="lg:hidden hidden menu flex items-center justify-right px-4 space-y-5 py-5">
-                       <div>
-                       <Link className="hover:text-gray-600" to="/profile">
-                            Profile
-                        </Link>
-                        <br />
-                        <Link className="hover:text-gray-600" to="/gallery">
-                            Gallery
-                        </Link>
-                        <br />
-                        <Link className="hover:text-gray-600" to="/activities">
-                            Services
-                        </Link>
-                       </div>
+                        <div>
+                            <Link className="hover:text-gray-600" to="/profile">
+                                Profile
+                            </Link>
+                            <br />
+                            <Link className="hover:text-gray-600" to="/gallery">
+                                Gallery
+                            </Link>
+                            <br />
+                            <Link className="hover:text-gray-600" to="/activities">
+                                Services
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </nav>

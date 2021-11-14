@@ -53,7 +53,7 @@ export default function Profile() {
                             </div>
                             <img src=" imgs/prfl2.png" alt="" />
 
-                            <img src=" imgs/gallery2.png" alt="" />
+                            <img src=" imgs/prfl3.jpeg" alt="" />
                         </div>
                     </CardBody>
                 </Card>
@@ -90,7 +90,7 @@ export default function Profile() {
                                 </div>
                             </div>
                             <Image
-                                src="imgs/gallery1.png"
+                                src="imgs/galle1.png"
                                 rounded={false}
                                 raised={false}
                                 alt="Image"

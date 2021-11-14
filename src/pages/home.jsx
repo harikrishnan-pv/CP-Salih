@@ -65,12 +65,10 @@ export default function Home() {
                             />
                             <CardBody>
                                 <p className="text-center pb-2 text-2xl">
-                                    Card title
+                                    Dream Home Project
                                 </p>
                                 <Paragraph color="gray">
-                                    Don't be scared of the truth because we need to restart the human
-                                    foundation in truth And I love you like Kanye loves Kanye I love
-                                    Rick Owens’ bed design but the back is...
+                                    Built 112 homes for homeless people which includes 18 flat complex
                                 </Paragraph>
                             </CardBody>
                         </Card>
@@ -100,17 +98,15 @@ export default function Home() {
                     <div className="flex lg:hover:scale-110 z-50 transition transform items-center">
                         <Card className="bg-gray-500" >
                             <CardImage
-                                src="imgs/stories2.png"
+                                src="imgs/stories2.jpeg"
                                 alt="Card Image"
                             />
                             <CardBody>
                                 <p className="text-center pb-2 text-2xl">
-                                    Card title
+                                    Covid First Line Treatment Center(CFLTC)
                                 </p>
                                 <Paragraph color="">
-                                    Don't be scared of the truth because we need to restart the human
-                                    foundation in truth And I love you like Kanye loves Kanye I love
-                                    Rick Owens’ bed design but the back is...
+                                    CP Trust has constructed and and transferred the CFLTC to the government with 400 beds and all facilities for the treatment and accommodation for the covid patients. 
                                 </Paragraph>
                             </CardBody>
                         </Card>
@@ -150,7 +146,7 @@ export default function Home() {
             <section className="slide hidden lg:flex px-28 flex justify-center  gallery">
                 <div className="grid  py-10 lg:grid-cols-3 gap-6">
                     <div className="flex w-full lg:grid-cols-2 px-10 p-3 gap-6 rounded-lg shadow-2xl grid bg-gray-600 col-span-2 items-center">
-                        <div  className="p-10 lg:hover:scale-110 z-50 transition transform" >
+                        <div className="p-10 lg:hover:scale-110 z-50 transition transform" >
                             <Image
                                 src="imgs/b4.jpeg"
                                 rounded={false}
@@ -212,8 +208,10 @@ export default function Home() {
                                 />
                             </div>
                             <div className="px-1 pt-14 text-justify">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Nulla non convallis nunc. Donec in semper diam, varius
+                                Mohamed Salih C.P, our chairman, is a pioneer extraordinaire, altruist with the mind of a futurist.
+
+                                He is the Chairman and Managing Director of AASA group of companies and the chairman of CP Mohamed Memorial Charitable Trust, which was founded purely for his charitable activities funded by his personal income from his overseas business
+
                             </div>
 
                         </div>
@@ -226,23 +224,23 @@ export default function Home() {
                     </div>
                     <div className="col-span-3 items-center flex">
                         <div>
-                        <div className=" font-bold text-center lg:text-justify text-gray-700 text-6xl lg:text-9xl">
-                            FOUNDER
-                        </div>
-                        <p className="xl lg:mt-4 mt-10 px-10 lg:px-0 text-justify ">
-                            Mohamed Salih C.P, our chairman, is a pioneer extraordinaire, altruist with the mind of a futurist.
+                            <div className=" font-bold text-center lg:text-justify text-gray-700 text-6xl lg:text-9xl">
+                                FOUNDER
+                            </div>
+                            <p className="xl lg:mt-4 mt-10 px-10 lg:px-0 text-justify ">
+                                Mohamed Salih C.P, our chairman, is a pioneer extraordinaire, altruist with the mind of a futurist.
 
-                            He is the Chairman and Managing Director of AASA group of companies and the chairman of CP Mohamed Memorial Charitable Trust, which was founded purely for his charitable activities funded by his personal income from his overseas business
-                        </p>
-                        <Link className="p-5" to="/profile">
-                            <Button
-                                color="blueGray"
-                                type="button"
-                                ripple="light"
-                            >
-                                Read More
-                            </Button>
-                        </Link>
+                                He is the Chairman and Managing Director of AASA group of companies and the chairman of CP Mohamed Memorial Charitable Trust, which was founded purely for his charitable activities funded by his personal income from his overseas business
+                            </p>
+                            <Link className="p-5" to="/profile">
+                                <Button
+                                    color="blueGray"
+                                    type="button"
+                                    ripple="light"
+                                >
+                                    Read More
+                                </Button>
+                            </Link>
                         </div>
                     </div>
                 </div>
