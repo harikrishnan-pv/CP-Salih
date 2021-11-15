@@ -1,21 +1,21 @@
 export const photos5 = [
   {
     src: "imgs/f1.jpeg",
-    width: 4,
-    height: 3,
+    width: 2,
+    height: 1,
     class : "lg:hover:scale-110 z-50 transition transform"
   },
   {
     src: "imgs/f2.jpeg",
     width: 3,
-    height: 2,
+    height: 1,
     class : "lg:hover:scale-110 z-50 transition transform"
   }, 
   {
     src: "imgs/f3.jpeg",
-    width: 3,
-    height: 2,
-    class : "lg:hover:scale-110 z-50 transition transform"
+    width: 1.5,
+    height: 1,
+    class : "kg:hover:scale-110 z-50 transition transform"
   },
   {
     src: "imgs/f4.jpeg",
