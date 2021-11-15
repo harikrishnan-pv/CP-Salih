@@ -13,9 +13,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   margin: 0;
   min-height:100vh;
 }
-.slide{
-  scroll-snap-align: start;
- }
+
+
+ @media screen and (min-width: 800px) {
+  .slide{
+    scroll-snap-align: start;
+   }
+}
+
 section{
   width: 99vw;
   min-height:100vh;

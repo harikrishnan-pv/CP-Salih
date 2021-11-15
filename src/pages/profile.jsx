@@ -22,11 +22,11 @@ export default function Profile() {
                             </b>
                             <br />
                             <br />
-                          <div className="text-justify">
-                          He is the Chairman and Managing Director of AASA group of
-                            companies and the chairman of CP Mohamed Memorial Charitable Trust, which was founded purely for his charitable activities funded by his personal
-                            income from his overseas business
-                          </div>
+                            <div className="text-justify">
+                                He is the Chairman and Managing Director of AASA group of
+                                companies and the chairman of CP Mohamed Memorial Charitable Trust, which was founded purely for his charitable activities funded by his personal
+                                income from his overseas business
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,7 +62,13 @@ export default function Profile() {
                 <Card>
                     <CardBody>
                         <div className="grid lg:grid-cols-2 gap-10">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ps76s-0pRXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+
+                            <div className="hidden lg:flex">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/ps76s-0pRXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div className="lg:hidden">
+                                <iframe width="300" height="170" src="https://www.youtube.com/embed/ps76s-0pRXo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
                             <div className="text-xl lg:col-span-1 my-auto">
                                 <div className="text-justify">
                                     He is a role model for young entrepreneurs in UAE and India and a motivator for new generation job seekers. He is always a supporter and helping hand to

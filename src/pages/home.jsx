@@ -65,9 +65,9 @@ export default function Home() {
                             />
                             <CardBody>
                                 <p className="text-center pb-2 text-2xl">
-                                    
-                                Dream Home Project
-                                 
+
+                                    Dream Home Project
+
                                 </p>
                                 <Paragraph color="gray">
                                     Built 112 homes for homeless people which includes 18 flat complex
@@ -105,11 +105,11 @@ export default function Home() {
                             />
                             <CardBody>
                                 <p className="text-center pb-2 text-2xl">
-                                Covid First Line Treatment Center(CFLTC)
-                                    
+                                    Covid First Line Treatment Center(CFLTC)
+
                                 </p>
                                 <Paragraph color="">
-                                    CP Trust has constructed and and transferred the CFLTC to the government with 400 beds and all facilities for the treatment and accommodation for the covid patients. 
+                                    CP Trust has constructed and and transferred the CFLTC to the government with 400 beds and all facilities for the treatment and accommodation for the covid patients.
                                 </Paragraph>
                             </CardBody>
                         </Card>
@@ -200,23 +200,31 @@ export default function Home() {
                 <Card className="bg-gray-600">
                     <CardBody>
                         <div className="grid text-white grid-cols-2">
-                            <div className="text-4xl font-bold text-center">
+                            <div className="text-4xl font-bold col-span-2 text-center">
                                 FOUNDER
                                 <Image
                                     src="imgs/foundermb.png"
                                     rounded={false}
                                     raised={true}
                                     alt="Raised Image"
-                                    className="pt-5"
+                                    className="pt-8 mx-auto"
                                 />
                             </div>
-                            <div className="px-1 pt-14 text-justify">
+                            <div className="px-1 pt-8 col-span-2   text-justify">
                                 Mohamed Salih C.P, our chairman, is a pioneer extraordinaire, altruist with the mind of a futurist.
 
                                 He is the Chairman and Managing Director of AASA group of companies and the chairman of CP Mohamed Memorial Charitable Trust, which was founded purely for his charitable activities funded by his personal income from his overseas business
 
                             </div>
-
+                            <Link className="p-1 mt-4" to="/profile">
+                                <Button
+                                    color="blueGray"
+                                    type="button"
+                                    ripple="light"
+                                >
+                                    Read More
+                                </Button>
+                            </Link>
                         </div>
                     </CardBody>
                 </Card>
