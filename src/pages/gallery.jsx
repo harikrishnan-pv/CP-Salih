@@ -5,6 +5,7 @@ import { photos2 } from "./photos2";
 import { photos3 } from "./photos3";
 import { photos4 } from "./photos4";
 import { photos5 } from "./photos5";
+import { photos6 } from "./photos6";
 export default function Gallery1() {
     return (
         <div>
@@ -37,6 +38,12 @@ export default function Gallery1() {
                 </div>
                 <br />
                 <Gallery margin={15} photos={photos5} />
+
+                <div className="font-bold pl-4 pt-2 text-4xl">
+                    Dream Home Project
+                </div>
+                <br />
+                <Gallery margin={15} photos={photos6} />
             </div>
 
         </div>

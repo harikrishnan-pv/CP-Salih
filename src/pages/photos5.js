@@ -7,7 +7,7 @@ export const photos5 = [
   },
   {
     src: "imgs/f2.jpeg",
-    width: 3,
+    width: 2.6,
     height: 1,
     class : "lg:hover:scale-110 z-50 transition transform"
   }, 
@@ -15,7 +15,7 @@ export const photos5 = [
     src: "imgs/f3.jpeg",
     width: 1.5,
     height: 1,
-    class : "kg:hover:scale-110 z-50 transition transform"
+    class : "lg:hover:scale-110 z-50 transition transform"
   },
   {
     src: "imgs/f4.jpeg",
