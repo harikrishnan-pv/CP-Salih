@@ -24,16 +24,7 @@ export default function Gallery1() {
                     CFLTC Inaguration                </div>
                 <br />
                 <Gallery margin={15} photos={photos} />
-                <br />
-                <div>
-                <HoverVideoPlayer
-      videoSrc="imgs\v1.mp4"
-      volume={0.5}
-      muted={false}
-      pausedOverlay={<PausedOverlay />}
-      loadingOverlay={<LoadingOverlay />}
-      />
-                </div>
+
 
 
                 <div className="font-bold pl-4 pt-2 text-4xl">
@@ -44,6 +35,16 @@ export default function Gallery1() {
                     Food Storage for CFLT             </div>
                 <br />
                 <Gallery margin={15} photos={photos4} />
+                <br />
+                <div className="pl-3">
+                    <HoverVideoPlayer
+                        videoSrc="imgs\v1.mp4"
+                        volume={0.5}
+                        muted={false}
+                        pausedOverlay={<PausedOverlay />}
+                        loadingOverlay={<LoadingOverlay />}
+                    />
+                </div>
                 <div className="font-bold pl-4 pt-2 text-4xl">
                     Food Distribution
                 </div>
