@@ -9,6 +9,7 @@ import { photos6 } from "./photos6";
 import HoverVideoPlayer from "react-hover-video-player";
 import PausedOverlay from "./PausedOverlay";
 import LoadingOverlay from "./LoadingOverlay";
+import PausedOverlay2 from "./v2";
 
 
 export default function Gallery1() {
@@ -23,19 +24,35 @@ export default function Gallery1() {
                 <div className="font-bold pl-4 pt-2 text-4xl">
                     CFLTC Inaguration                </div>
                 <br />
+
                 <Gallery margin={15} photos={photos} />
-
-
 
                 <div className="font-bold pl-4 pt-2 text-4xl">
                     Mammootty Visiting CFLTC              </div>
                 <br />
+                <br />
+
+<div className="pl-3">
+    <HoverVideoPlayer
+        videoSrc="imgs\v2.mp4"
+        volume={0.5}
+        muted={false}
+        pausedOverlay={<PausedOverlay2 />}
+        loadingOverlay={<LoadingOverlay />}
+    />
+</div>
+<br />
+
                 <Gallery margin={15} photos={photos3} />
+
                 <div className="font-bold pl-4 pt-2 text-4xl">
                     Food Storage for CFLTC             </div>
                 <br />
+
                 <Gallery margin={15} photos={photos4} />
+
                 <br />
+
                 <div className="pl-3">
                     <HoverVideoPlayer
                         videoSrc="imgs\v1.mp4"
