@@ -6,6 +6,11 @@ import { photos3 } from "./photos3";
 import { photos4 } from "./photos4";
 import { photos5 } from "./photos5";
 import { photos6 } from "./photos6";
+import HoverVideoPlayer from "react-hover-video-player";
+import PausedOverlay from "./PausedOverlay";
+import LoadingOverlay from "./LoadingOverlay";
+
+
 export default function Gallery1() {
     return (
         <div>
@@ -19,12 +24,24 @@ export default function Gallery1() {
                     CFLTC Inaguration                </div>
                 <br />
                 <Gallery margin={15} photos={photos} />
+                <br />
+                <div>
+                <HoverVideoPlayer
+      videoSrc="imgs\v1.mp4"
+      volume={0.5}
+      muted={false}
+      pausedOverlay={<PausedOverlay />}
+      loadingOverlay={<LoadingOverlay />}
+      />
+                </div>
+
+
                 <div className="font-bold pl-4 pt-2 text-4xl">
                     Mammootty Visiting CFLTC              </div>
                 <br />
                 <Gallery margin={15} photos={photos3} />
                 <div className="font-bold pl-4 pt-2 text-4xl">
-                    Food Storage             </div>
+                    Food Storage for CFLT             </div>
                 <br />
                 <Gallery margin={15} photos={photos4} />
                 <div className="font-bold pl-4 pt-2 text-4xl">

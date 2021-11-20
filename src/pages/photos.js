@@ -12,11 +12,23 @@ export const photos = [
       class : "lg:hover:scale-110 z-50 transition transform"
     },  
     {
-      src: "imgs/a7.jpeg",
+      src: "imgs/a3.jpeg",
       width: 3,
       height: 2,
       class : "lg:hover:scale-110 z-50 transition transform"
     },  
+    {
+      src: "imgs/a4.jpeg",
+      width: 3,
+      height: 2,
+      class : "lg:hover:scale-110 z-50 transition transform"
+    }, 
+    {
+      src: "imgs/a6.jpeg",
+      width: 3,
+      height: 2,
+      class : "lg:hover:scale-110 z-50 transition transform"
+    }, 
     {
       src: "imgs/a9.jpeg",
       width: 3,
