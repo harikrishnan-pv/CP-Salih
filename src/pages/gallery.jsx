@@ -32,7 +32,7 @@ export default function Gallery1() {
                 <br />
                 <Gallery margin={15} photos={photos3} />
                 <div className="font-bold pl-4 pt-2 text-4xl">
-                    Food Storage for CFLT             </div>
+                    Food Storage for CFLTC             </div>
                 <br />
                 <Gallery margin={15} photos={photos4} />
                 <br />
