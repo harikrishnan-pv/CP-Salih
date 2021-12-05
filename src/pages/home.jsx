@@ -16,9 +16,18 @@ export default function Home() {
     return (
         <div className="slider lg:container-2xl  ">
 
-            <section className="slide hidden md:block">
-                <Carousell />
+            <section >
+                <div className="slide hidden md:block pt-20">
+                    <Carousell />
+                </div>
+                <div className="slide visible md:hidden pt-20">
+                    <img src="imgs/carm.png" alt="" />
+
+                </div>
+
+
             </section>
+
             <section className="vision slide">
                 <div className="grid min-h-screen max-w-7xl mx-auto flex items-center content-center  lg:grid-cols-3 ">
                     <div className="col-span-2">
