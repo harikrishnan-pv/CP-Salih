@@ -1,5 +1,4 @@
 import React from 'react'
-import Carousell from '../components/carousel'
 import Card from "@material-tailwind/react/Card";
 import CardImage from "@material-tailwind/react/CardImage";
 import CardBody from "@material-tailwind/react/CardBody";
@@ -8,6 +7,7 @@ import Image from "@material-tailwind/react/Image";
 import Button from "@material-tailwind/react/Button";
 import Typewriter from "typewriter-effect";
 import { Link } from 'react-router-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 export default function Home() {
 
@@ -15,8 +15,23 @@ export default function Home() {
     return (
         <div className="slider lg:container-2xl  ">
 
-            <section className="slide">
-                <Carousell />
+            <section className=" w-screen pt-20 visible md-invisible">
+
+
+                <div className="h-screen w-full flex justify-between">
+
+                    <img
+                        className=" w-full  sm:hidden car2"
+                        src="imgs/carm.png"
+                        alt="" />
+
+                        <img 
+                        className = "car2 z-10 hidden sm:flex "
+                        src="imgs/car2.jpg" alt="" />
+                </div>
+                <div className="logo md:flex-shrink-0">
+                    <img className="w-40 sm:w-80 " src="imgs/logo.png" alt="logo" />
+                </div>
             </section>
             <section className="vision slide">
                 <div className="grid min-h-screen max-w-7xl mx-auto flex items-center content-center  lg:grid-cols-3 ">
