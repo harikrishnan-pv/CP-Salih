@@ -9,7 +9,9 @@ export default function DefaultFooter() {
                     <div className="flex flex-wrap text-center lg:text-left pt-6">
                         <div className="w-full lg:w-6/12 px-4">
                             <p className="text-4xl">
-                            A rich man is nothing but a poor man with money
+                            <b>CP Mohammed Memorial Charitable Trust (CPMCT)</b> 
+                            <br />
+                            (Founded by CP Salih, Chairman and Managing Director of AASA Group of Companies)
                             </p>
                            
                             <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">

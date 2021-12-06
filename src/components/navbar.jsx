@@ -23,6 +23,9 @@ export default function Navbarr() {
                 <div className="bg-white lg:bg-transparent stickerr w-100 text-xl text-gray-600">
                     <div className="max-w-7xl px-5 py-1 mx-auto">
                         <div className="flex justify-around">
+                        <div className = "flex items-center">
+                                <p>CP Mohammed Memorial Charitable Trust</p>
+                            </div>
                             <Link to="/">
                                 <div className="flex items-center">
                                     <img width="80" src="imgs/logo.png" alt="" />
