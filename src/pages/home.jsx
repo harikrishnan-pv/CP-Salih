@@ -19,7 +19,7 @@ export default function Home() {
                 <div className="slide hidden md:block pt-20">
                     <Carousell />
                 </div>
-                <div className="slide visible md:hidden pt-20">
+                <div className="slide visible md:hidden pt-16">
                     <img src="imgs/carm.png" alt="" />
 
                 </div>
