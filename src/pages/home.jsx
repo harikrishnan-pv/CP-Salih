@@ -8,7 +8,6 @@ import Image from "@material-tailwind/react/Image";
 import Button from "@material-tailwind/react/Button";
 import Typewriter from "typewriter-effect";
 import { Link } from 'react-router-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 
 export default function Home() {
 
