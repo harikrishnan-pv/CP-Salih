@@ -22,12 +22,14 @@ export default function Navbarr() {
             <nav className='absolute navbarr bg-gray-200 w-full z-40 shadow-xl'>
                 <div className="bg-white lg:bg-transparent stickerr w-100 text-xl text-gray-600">
                     <div className="max-w-7xl px-5 py-1 mx-auto">
-                        <div className="flex justify-around">
-                        <div className = "flex items-center">
-                                <p>CP Mohammed Memorial Charitable Trust</p>
+                        <div className="flex justify-around items-center">
+                            <div className="flex items-center ">
+                                <p className="text-lg md:text-2xl hidden md:block">CP Mohammed Memorial Charitable Trust</p>
+                                <p className="text-lg md:hidden ">CP Mohammed Memorial  Charitable Trust</p>
+
                             </div>
                             <Link to="/">
-                                <div className="flex items-center">
+                                <div className="flex items-center md:pr-4 transform scale-75 md:scale-100">
                                     <img width="80" src="imgs/logo.png" alt="" />
 
                                 </div>
@@ -49,7 +51,7 @@ export default function Navbarr() {
                                     Activities
                                 </Link>
                             </div>
-                            <div className="lg:hidden ham flex items-center">
+                            <div className="lg:hidden ham flex items-center transform scale-75 md:scale-100">
                                 <button>
                                     <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
 

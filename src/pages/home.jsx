@@ -16,10 +16,10 @@ export default function Home() {
         <div className="slider lg:container-2xl  ">
 
             <section >
-                <div className="slide hidden md:block pt-20">
+                <div className="slide hidden md:block pt-20 items-center pl-2">
                     <Carousell />
                 </div>
-                <div className="slide visible md:hidden pt-16">
+                <div className=" visible md:hidden pt-16 pl-1">
                     <img src="imgs/carm.png" alt="" />
 
                 </div>
