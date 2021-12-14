@@ -23,8 +23,6 @@ export default function Home() {
                     <img src="imgs/carm.png" alt="" />
 
                 </div>
-
-
             </section>
 
             <section className="vision slide">
