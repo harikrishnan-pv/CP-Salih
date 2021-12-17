@@ -26,9 +26,9 @@ export default function Home() {
             </section>
 
             <section className="vision slide">
-                <div className="grid min-h-screen max-w-7xl mx-auto flex items-center content-center  lg:grid-cols-3 ">
+                <div className="grid min-h-screen max-w-7xl mx-auto flex items-center content-center  lg:grid-cols-3  ">
                     <div className="col-span-2">
-                        <p className="text-center font-display   text-9xl">
+                        <p className="text-center font-display text-9xl">
                             Our Vision
                         </p>
                     </div>

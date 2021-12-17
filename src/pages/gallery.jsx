@@ -41,7 +41,7 @@ export default function Gallery1() {
                     Wishes for CFLTC              </div>
                 <br />
 
-                <div className = 'pl-1' >
+                <div className='pl-1' >
                     <HoverVideoPlayer
                         videoSrc="imgs\v2.mp4"
                         volume={0.5}
@@ -74,7 +74,7 @@ export default function Gallery1() {
 
                     <div>
 
-                        <div className = 'pt-1' >
+                        <div className='pt-1' >
                             <HoverVideoPlayer
                                 videoSrc="imgs\v4.mp4"
                                 volume={0.5}
@@ -90,16 +90,16 @@ export default function Gallery1() {
                     </div>
                 </div>
 
-
+                <br /><br />
                 <div className="font-bold pl-4 pt-2 text-5xl">
                     Food Storage for CFLTC             </div>
                 <br />
 
                 <Gallery margin={15} photos={photos4} />
 
-                <br />
+                
 
-                <div className="pl-3">
+                <div className="p-1 pt-4">
                     <HoverVideoPlayer
                         videoSrc="imgs\v1.mp4"
                         volume={0.5}
