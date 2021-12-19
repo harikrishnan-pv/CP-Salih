@@ -13,17 +13,16 @@ export default function Home() {
 
 
     return (
-        <div className="slider lg:container-2xl  ">
+        <div className="slir lg:container-2xl  ">
 
-            <section >
-                <div className="slide hidden md:block pt-20 items-center pl-2">
+            <div >
+                <div className="slide hidden min-h-screen md:block pt-20 items-center pl-2">
                     <Carousell />
                 </div>
                 <div className=" visible md:hidden pt-16 pl-1">
-                    <img src="imgs/carm.png" alt="" />
-
+                    <img className='h-scre' src="imgs/carm.png" alt="" />
                 </div>
-            </section>
+            </div>
 
             <section className="vision slide">
                 <div className="grid min-h-screen max-w-7xl mx-auto flex items-center content-center  lg:grid-cols-3  ">

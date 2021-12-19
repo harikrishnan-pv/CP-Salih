@@ -6,6 +6,7 @@ import { photos3 } from "./photos3";
 import { photos4 } from "./photos4";
 import { photos5 } from "./photos5";
 import { photos6 } from "./photos6";
+import { photos7 } from "./photos7";
 import HoverVideoPlayer from "react-hover-video-player";
 import PausedOverlay from "./PausedOverlay";
 import LoadingOverlay from "./LoadingOverlay";
@@ -97,7 +98,7 @@ export default function Gallery1() {
 
                 <Gallery margin={15} photos={photos4} />
 
-                
+
 
                 <div className="p-1 pt-4">
                     <HoverVideoPlayer
@@ -127,6 +128,7 @@ export default function Gallery1() {
                 </div>
                 <br />
                 <Gallery margin={15} photos={photos6} />
+                <Gallery margin={15} photos={photos7} />
             </div>
 
         </div>

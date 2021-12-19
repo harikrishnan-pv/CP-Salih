@@ -8,12 +8,15 @@ export default function DefaultFooter() {
                 <div className="container py-20 max-w-7xl mx-auto px-4">
                     <div className="flex flex-wrap text-center lg:text-left pt-6">
                         <div className="w-full lg:w-6/12 px-4">
-                            <p className="text-4xl">
-                            <b>CP Mohammed Memorial Charitable Trust (CPMCT)</b> 
-                            <br />
-                            (Founded by CP Salih, Chairman and Managing Director of AASA Group of Companies)
+                            <p className="text-4xl ">
+                                <b>CP Mohammed Memorial Charitable Trust (CPMCT)</b>
+                                <p className="text-sm">
+                                    
+                                    <br />
+                                </p>
+                                (Founded by CP Salih, Chairman and Managing Director of AASA Group of Companies)
                             </p>
-                           
+
                             <div className="flex gap-2 mt-6 md:justify-start md:mb-0 mb-8 justify-center">
                                 <a
                                     href="https://www.facebook.com/"
@@ -86,7 +89,7 @@ export default function DefaultFooter() {
                         <div className="w-full lg:w-6/12 px-4">
                             <div className="flex flex-wrap items-top">
                                 <div className="w-full lg:w-4/12 px-4 ml-auto md:mb-0 mb-8">
-                                   
+
                                     <ul className="list-unstyled">
                                         <li>
                                             <a
@@ -128,11 +131,11 @@ export default function DefaultFooter() {
                                                 OUR FOUNDER
                                             </a>
                                         </li>
-                                        
+
                                     </ul>
                                 </div>
                                 <div className="w-full lg:w-4/12 px-4">
-                                <ul className="list-unstyled">
+                                    <ul className="list-unstyled">
                                         <li>
                                             <a
                                                 href="/"
@@ -140,7 +143,7 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-300 font-bold hover:text-white block pb-2 text-sm"
                                             >
-                                               SUPPORT
+                                                SUPPORT
                                             </a>
                                         </li>
                                         <li>
@@ -153,8 +156,8 @@ export default function DefaultFooter() {
                                                 CONTACT US
                                             </a>
                                         </li>
-                                      
-                                        
+
+
                                     </ul>
                                 </div>
                             </div>
@@ -171,7 +174,7 @@ export default function DefaultFooter() {
                                 >
                                     Circle.
                                 </a>
-                                
+
                             </div>
                         </div>
                     </div>

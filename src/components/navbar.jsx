@@ -24,8 +24,10 @@ export default function Navbarr() {
                     <div className="max-w-7xl px-5 py-1 mx-auto">
                         <div className="flex justify-around items-center">
                             <div className="flex items-center ">
-                                <p className="text-lg md:text-2xl hidden md:block">CP Mohammed Memorial Charitable Trust</p>
+                               <Link to = "/">
+                               <p className="text-lg md:text-2xl hidden md:block">CP Mohammed Memorial Charitable Trust</p>
                                 <p className="text-lg md:hidden ">CP Mohammed Memorial  Charitable Trust</p>
+                               </Link>
 
                             </div>
                             <Link to="/">
