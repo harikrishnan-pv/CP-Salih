@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  background-position: center;
+}
+
 html{
   scroll-snap-type: y proximity;
   background-color: #ffffff;
@@ -25,14 +29,17 @@ section{
   width: 99vw;
   min-height:100vh;
 }
-.car1{
-  background-image: url(imgs/car1.jpg);
+.carp{
+  background-image: url(imgs/car3.png);
   background-size: cover;
+  background-position: center;
 
 }
-.car2{
-  background-image: url(imgs/car2.jpg);
+
+.carm{
+  background-image: url(imgs/carm1.png);
   background-size: cover;
+  background-position: center;
 
 }
 

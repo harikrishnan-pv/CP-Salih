@@ -16,12 +16,10 @@ export default function Home() {
         <div className="slir lg:container-2xl  ">
 
             <div >
-                <div className="slide hidden min-h-screen md:block pt-20 items-center pl-2">
+                <div className="slide min-h-screen pt-20 items-center ">
                     <Carousell />
                 </div>
-                <div className=" visible md:hidden pt-16 pl-1">
-                    <img className='h-scre' src="imgs/carm.png" alt="" />
-                </div>
+                
             </div>
 
             <section className="vision slide">
