@@ -84,7 +84,7 @@ export default function Profile() {
                 <Card>
                     <CardBody>
                         <div className="grid lg:grid-cols-4 gap-10">
-                            <div className="text-2xl my-auto lg:col-span-3">
+                            <div className="text-2xl my-auto lg:col-span-4">
                                 <div className="font-bold">
                                     Early Life
 
@@ -95,12 +95,7 @@ export default function Profile() {
                                     Chandana Parambil family, who was an agriculturist and well known philanthropist of those time.
                                 </div>
                             </div>
-                            <Image
-                                src="imgs/galle1.png"
-                                rounded={false}
-                                raised={false}
-                                alt="Image"
-                            />
+                           
                         </div>
                     </CardBody>
                 </Card>
