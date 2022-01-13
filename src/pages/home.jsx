@@ -23,7 +23,7 @@ export default function Home() {
             </div>
 
             <section className="vision slide">
-                <div className="grid min-h-screen max-w-7xl mx-auto flex items-center content-center  lg:grid-cols-3  ">
+                <div className="grid py-20 lg:py-0 lg:min-h-screen max-w-7xl mx-auto  items-center content-center  lg:grid-cols-3  ">
                     <div className="col-span-2">
                         <p className="text-center font-display text-9xl">
                             Our Vision
@@ -79,7 +79,7 @@ export default function Home() {
                             </CardBody>
                         </Card>
                     </div>
-                    <div className="flex items-center  justify-evenly">
+                    <div className="flex items-center lg:min-h-screen  justify-evenly">
 
                         <div>
                             <p className="text-7xl text-gray-600 font-bold">
@@ -101,7 +101,7 @@ export default function Home() {
                             </Link>
                         </div>
                     </div>
-                    <div className="flex lg:hover:scale-110 z-50 transition transform items-center">
+                    <div className="flex lg:hover:scale-110  z-50 transition transform items-center">
                         <Card className="bg-gray-500" >
                             <CardImage
                                 src='imgs/stories1.png'
@@ -123,7 +123,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <div className=" pt-16 slide lg:hidden px-4 flex justify-center">
+            <div className=" pt-16 slide lg:hidden px-4  flex justify-center">
                 <Card className="bg-gray-500">
                     <CardImage
                         src="imgs/stories2.jpeg"
@@ -150,7 +150,7 @@ export default function Home() {
                 </Card>
             </div>
 
-            <section className="slide hidden lg:flex px-28 flex justify-center  gallery">
+            <section className="slide hidden lg:min-h-screen lg:flex px-28 flex justify-center  gallery">
                 <div className="grid  py-10 lg:grid-cols-3 gap-6">
                     <div className="flex w-full lg:grid-cols-2 px-10 p-3 gap-6 rounded-lg shadow-2xl grid bg-gray-600 col-span-2 items-center">
                         <div className="p-10 lg:hover:scale-110 z-50 transition transform" >
