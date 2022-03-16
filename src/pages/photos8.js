@@ -8,7 +8,7 @@ export const photos8 = [
   {
     src: "imgs/z1.jpeg",
     width: 2.5,
-    height: 0,
+    height: 1,
     class: "lg:hover:scale-110 z-50 transition transform",
   },
   {

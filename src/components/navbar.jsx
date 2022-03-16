@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Navbarr() {
@@ -10,7 +10,6 @@ export default function Navbarr() {
       menu.classList.toggle("hidden");
     });
   };
-  const [navbar, setNavbar] = useState(false);
 
   return (
     <div>
@@ -33,7 +32,7 @@ export default function Navbarr() {
                   <img width="80" src="imgs/logo.png" alt="" />
                 </div>
               </Link>
-              <div className="flex hidden lg:flex items-center space-x-7">
+              <div className=" hidden lg:flex items-center space-x-7">
                 <Link className="hover:text-gray-600" to="/">
                   Home
                 </Link>
@@ -70,7 +69,7 @@ export default function Navbarr() {
               </div>
             </div>
           </div>
-          <div className="lg:hidden hidden menu flex items-center justify-right px-4 space-y-5 py-5">
+          <div className="lg:hidden  menu flex items-center justify-right px-4 space-y-5 py-5">
             <div>
             <Link className="hover:text-gray-600" to="/">
                 Home
