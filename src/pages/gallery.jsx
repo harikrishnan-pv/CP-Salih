@@ -7,6 +7,7 @@ import { photos4 } from "./photos4";
 import { photos5 } from "./photos5";
 import { photos6 } from "./photos6";
 import { photos7 } from "./photos7";
+import { photos8 } from "./photos8";
 
 
 export default function Gallery1() {
@@ -82,6 +83,12 @@ export default function Gallery1() {
         <br />
         <Gallery margin={15} photos={photos6} />
         <Gallery margin={15} photos={photos7} />
+        <br />
+        <br />
+        <div className="font-bold pl-4 pt-2 text-5xl">Water Distribution Project</div>
+        <br />
+        <Gallery margin={15} photos={photos8} />
+
       </div>
     </div>
   );
