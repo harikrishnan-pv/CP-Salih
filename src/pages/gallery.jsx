@@ -88,6 +88,23 @@ export default function Gallery1() {
         <div className="font-bold pl-4 pt-2 text-5xl">Water Distribution Project</div>
         <br />
         <Gallery margin={15} photos={photos8} />
+        <div className="grid lg:grid-cols-2">
+          <div className="p-3">
+            <video controls>
+              <source src="imgs/w1.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="p-3">
+            <video controls>
+              <source src="imgs/w2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="p-3">
+            <video controls>
+              <source src="imgs/w3.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
         <br /><br />
         <div className="font-bold pl-4 pt-2 text-5xl">Financial Support for Cancer Patients</div>
         <br />
