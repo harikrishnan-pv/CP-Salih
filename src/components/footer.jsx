@@ -103,6 +103,17 @@ export default function DefaultFooter() {
                                         </li>
                                         <li>
                                             <a
+                                                href="http://aasa.ae/"
+                                                target="_blank"
+                                                rel="noreferrer"
+                                                className="text-gray-300 font-bold hover:text-white block pb-2 text-sm"
+                                            >
+                                                ABOUT US
+                                            </a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a
                                                 href="/"
                                                 target="_blank"
                                                 rel="noreferrer"
