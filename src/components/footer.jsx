@@ -108,7 +108,7 @@ export default function DefaultFooter() {
                                                 rel="noreferrer"
                                                 className="text-gray-300 font-bold hover:text-white block pb-2 text-sm"
                                             >
-                                                ABOUT US
+                                                ABOUT AASA
                                             </a>
                                         </li>
                                         
