@@ -8,6 +8,8 @@ import { photos5 } from "./photos5";
 import { photos6 } from "./photos6";
 import { photos7 } from "./photos7";
 import { photos8 } from "./photos8";
+import { photos9 } from "./photos9";
+
 
 
 export default function Gallery1() {
@@ -17,11 +19,22 @@ export default function Gallery1() {
         <div className="font-bold text-8xl">Gallery</div>
       </div>
       <div className="max-w-7xl pb-20 mx-auto">
+        <div className="font-bold pl-4 pt-2 text-5xl">Various welfare and charity programs conducted by CP Trust in 2023 </div>
+        <br />
+        <Gallery margin={15} photos={photos9} />
+        <div className="p-3 ">
+            <video controls>
+              <source src="imgs/welf1.mp4" type="video/mp4" />
+            </video>
+          </div>
+        <br />
+        <br />
         <div className="font-bold pl-4 pt-2 text-5xl">CFLTC Inaguration </div>
         <br />
         <Gallery margin={15} photos={photos} />
         <br />
         <br />
+
         <div className="font-bold pl-4 pt-2 text-5xl">
           Mammootty Visiting CFLTC{" "}
         </div>
@@ -102,6 +115,11 @@ export default function Gallery1() {
           <div className="p-3">
             <video controls>
               <source src="imgs/w3.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="p-3">
+            <video controls>
+              <source src="imgs/w5.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
